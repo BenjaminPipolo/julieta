@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header{
+    margin-bottom: 1.25rem;
+}
+
+body {
+    font-family: sans-serif;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.contenedor-logo{
+    display: grid;
+    grid-template-columns: 6.375rem 11.625rem 6.375rem;
+    grid-template-rows: 36.992px;
+}
+
+.logo{
+    height: 2.3125rem;
+    width: 11.625rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2/3;
+    justify-content: center;
+}
+
+.navbar{
+    grid-column: 3/4;
+    width: 6.375rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+    text-align: center;
+    padding-top: 1.25rem;
+}
+
+p{
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+    text-align: left;
+    padding-top: 1.25rem;
+}
+
+h3{
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+    text-align: left;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}
+
+.acciones{
+    background-color: #3D3E3E;
+}
+
+.contenedor-newsletter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.newsletter{
+    width: 25rem;
+    height: 17.1875rem;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1.25rem;
+}
+
+.contenedor-pasaporte{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.pasaporte{
+    width: 25rem;
+    height: 17.1875rem;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1.25rem;
+}
+
+.boton{
+    margin: 20px; /* Agrega un margen de 20px alrededor del div */
+    border-radius: 10px;
+    border-width: .125rem;
+    border-style: solid; /* Establece el estilo del borde a sólido */
+    border-color: white; /* Hace que los bordes sean redondeados con un radio de 10px */
+    padding: 10px; /* Agrega espacio interno opcional */
+    width: 188px;
+    display: flex;
+    justify-content: center;
+}
+
+.boton a{
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    font-size: 3em;
+    color: black;
+    text-align: center;
+}
+
+#star {
+    color: red;
+}
+
+.pointer {
+    cursor: pointer;
+    color: red;
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: center;
+}
+
+nav {
+    font-size: 1em;
+    font-family: serif;
+    color: grey;
+    text-align: center;
+}
+
+.terminos_y_condiciones {
+    font-family: sans-serif;
+    line-height: 1em;
+    color: grey;
+}
